@@ -7,21 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AF75DA1F2168FAFF007C874A /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF75DA1E2168FAFF007C874A /* PageViewController.swift */; };
 		AFAE76DA2168BEF700D16354 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFAE76D92168BEF700D16354 /* AppDelegate.swift */; };
-		AFAE76DC2168BEF700D16354 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFAE76DB2168BEF700D16354 /* ViewController.swift */; };
 		AFAE76DF2168BEF700D16354 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AFAE76DD2168BEF700D16354 /* Main.storyboard */; };
 		AFAE76E12168BEF800D16354 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AFAE76E02168BEF800D16354 /* Assets.xcassets */; };
 		AFAE76E42168BEF800D16354 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AFAE76E22168BEF800D16354 /* LaunchScreen.storyboard */; };
+		AFAE76F22168DEA200D16354 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFAE76F12168DEA200D16354 /* ViewController.swift */; };
+		AFAE76F42168DEDC00D16354 /* CreateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFAE76F32168DEDC00D16354 /* CreateViewController.swift */; };
+		AFAE76F62168E97800D16354 /* pepar.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AFAE76F52168E97800D16354 /* pepar.jpg */; };
+		AFAE76F82168EE2E00D16354 /* top.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AFAE76F72168EE2E00D16354 /* top.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AF75DA1E2168FAFF007C874A /* PageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
 		AFAE76D62168BEF700D16354 /* Yujincho.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Yujincho.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AFAE76D92168BEF700D16354 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		AFAE76DB2168BEF700D16354 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		AFAE76DE2168BEF700D16354 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AFAE76E02168BEF800D16354 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AFAE76E32168BEF800D16354 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AFAE76E52168BEF800D16354 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AFAE76F12168DEA200D16354 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AFAE76F32168DEDC00D16354 /* CreateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateViewController.swift; sourceTree = "<group>"; };
+		AFAE76F52168E97800D16354 /* pepar.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pepar.jpg; sourceTree = "<group>"; };
+		AFAE76F72168EE2E00D16354 /* top.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = top.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,11 +63,15 @@
 			isa = PBXGroup;
 			children = (
 				AFAE76D92168BEF700D16354 /* AppDelegate.swift */,
-				AFAE76DB2168BEF700D16354 /* ViewController.swift */,
 				AFAE76DD2168BEF700D16354 /* Main.storyboard */,
 				AFAE76E02168BEF800D16354 /* Assets.xcassets */,
 				AFAE76E22168BEF800D16354 /* LaunchScreen.storyboard */,
 				AFAE76E52168BEF800D16354 /* Info.plist */,
+				AFAE76F52168E97800D16354 /* pepar.jpg */,
+				AFAE76F72168EE2E00D16354 /* top.jpg */,
+				AFAE76F12168DEA200D16354 /* ViewController.swift */,
+				AFAE76F32168DEDC00D16354 /* CreateViewController.swift */,
+				AF75DA1E2168FAFF007C874A /* PageViewController.swift */,
 			);
 			path = Yujincho;
 			sourceTree = "<group>";
@@ -122,8 +134,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AFAE76F62168E97800D16354 /* pepar.jpg in Resources */,
 				AFAE76E42168BEF800D16354 /* LaunchScreen.storyboard in Resources */,
 				AFAE76E12168BEF800D16354 /* Assets.xcassets in Resources */,
+				AFAE76F82168EE2E00D16354 /* top.jpg in Resources */,
 				AFAE76DF2168BEF700D16354 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -135,8 +149,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AFAE76DC2168BEF700D16354 /* ViewController.swift in Sources */,
+				AFAE76F22168DEA200D16354 /* ViewController.swift in Sources */,
 				AFAE76DA2168BEF700D16354 /* AppDelegate.swift in Sources */,
+				AFAE76F42168DEDC00D16354 /* CreateViewController.swift in Sources */,
+				AF75DA1F2168FAFF007C874A /* PageViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,14 +298,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6ZRH8478PS;
 				INFOPLIST_FILE = Yujincho/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = jp.futasekun.Yujincho;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -299,14 +319,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6ZRH8478PS;
 				INFOPLIST_FILE = Yujincho/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = jp.futasekun.Yujincho;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
